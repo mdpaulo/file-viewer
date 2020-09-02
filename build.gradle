@@ -11,8 +11,8 @@ plugins {
     id 'java-library'
     id 'org.springframework.boot' version '2.1.7.RELEASE'
 }
-sourceCompatibility = '1.8'
-targetCompatibility = '1.8'
+sourceCompatibility = '11'
+targetCompatibility = '11'
 
 bootJar {
    archiveName = 'fileviewer.jar'
